@@ -7,7 +7,7 @@
 // Modules
 module "compute" {
   source  = "app.terraform.io/dsodiary/compute/aws"
-  version = "1.0.2"
+  version = "1.0.3"
 
   aws_region          = "ap-southeast-1"
   public_key_material = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDv4dIbgwN5rsrBNAk4nqbovlkeRI39tV+i4K3Vu31mY truongblx@dso"
